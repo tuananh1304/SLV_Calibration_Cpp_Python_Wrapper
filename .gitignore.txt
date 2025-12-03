@@ -1,0 +1,32 @@
+# Visual Studio files
+.vs/
+out/
+x64/
+x86/
+Debug/
+Release/
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.cache
+
+# Compiled Object files
+*.obj
+*.o
+*.lib
+*.exp
+*.log
+*.tlog
+*.pdb
+*.idb
+*.ipch
+
+# Python compiled files (nếu bạn muốn build lại ở máy khác)
+*.pyd
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
