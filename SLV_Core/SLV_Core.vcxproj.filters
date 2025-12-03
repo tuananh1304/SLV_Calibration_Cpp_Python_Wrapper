@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Instruments">
+      <UniqueIdentifier>{929a53d0-e05b-4e4a-90c8-487e501fca47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{b2637522-4f8c-47c3-bad9-8be0ef5e9d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{48b50bd7-d978-4ed4-b516-d82f9dbd7d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{5fe9655b-b91b-4606-b8c1-6da390cfe064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{03dab08a-0a6b-4d37-b363-69deba75b6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Python">
+      <UniqueIdentifier>{10edf087-425b-47a5-a706-e03c97fad51c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Instruments\MarketData.hpp">
+      <Filter>Header Files\Instruments</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\Analytics.hpp">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\Interpolation.hpp">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\RandomGen.hpp">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Math\Statistics.hpp">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Models\HestonModel.hpp">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Models\LocalVolBootstrapper.hpp">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Models\SLVCalibrator.hpp">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Models\StochasticProcess.hpp">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Models\SVI.hpp">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Models\LocalVolMC.hpp">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Models\HestonModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\LocalVolBoostrapper.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\SLVCalibrator.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Statistics.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="python_bindings.cpp">
+      <Filter>Source Files\Python</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\LocalVolMC.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
