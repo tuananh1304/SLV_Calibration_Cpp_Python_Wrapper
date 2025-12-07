@@ -80,6 +80,10 @@ namespace MyQuantLib {
 
                 double dw_dt = (w_up - w_down) / (2 * dt_bump);
 
+                if (dw_dt <= 0.0) {
+                    throw std::runtime_error("SVI no-arbitrage violation: dw/dt must be > 0");
+                }
+
                 // Nếu ở sát biên thời gian 0, dùng sai phân tiến (Forward diff)
                 //if (t < dt_bump) {
                 //    dw_dt = (w_up - SVIModel::total_variance(k, interpolateParams(0.0001))) / dt_bump;
